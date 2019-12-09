@@ -1,10 +1,10 @@
 <?php
   $dep = array(
-    02 => 'Aisne',
-    59 => 'Nord',
-    60 => 'Oise',
-    62 => 'Pas-de-Calais',
-    80 => 'Somme',
+    '02' => 'Aisne',
+    '59' => 'Nord',
+    '60' => 'Oise',
+    '62' => 'Pas-de-Calais',
+    '80' => 'Somme',
   );
  ?>
 <!doctype html>
@@ -20,7 +20,7 @@
   <h1>Exercice 6 Partie 5 PHP</h1>
   <div class="container">
     <p>
-      <?= 'département 59 --> ' . $dep[59]; ?>
+      <?= 'département 59 --> ' . $dep['59']; ?>
     </p>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

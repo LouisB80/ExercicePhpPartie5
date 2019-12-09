@@ -1,17 +1,17 @@
 <?php
   $month = array(
-    0 => 'Janvier',
-    1 => 'Février',
-    2 => 'Mars',
-    3 => 'Avril',
-    4 => 'Mai',
-    5 => 'Juin',
-    6 => 'Juillet',
-    7 => 'Aout',
-    8 => 'Septembre',
-    9 => 'Octobre',
-    10 => 'Novembre',
-    11 => 'Décembre',
+    'Janvier',
+    'Février',
+    'Mars',
+    'Avril',
+    'Mai',
+    'Juin',
+    'Juillet',
+    'Aout',
+    'Septembre',
+    'Octobre',
+    'Novembre',
+    'Décembre',
   );
  ?>
 <!doctype html>
